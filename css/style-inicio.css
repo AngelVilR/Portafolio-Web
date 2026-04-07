@@ -1,0 +1,11 @@
+.centrarNavBar{
+    display: flex;        
+    margin: auto;
+    gap: 2em;
+}
+
+main h1{
+    margin: 2em 0em 4em;
+    text-align: center;
+    font-weight: bold;
+}
