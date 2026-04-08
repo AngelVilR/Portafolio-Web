@@ -1,11 +1,85 @@
-.centrarNavBar{
-    display: flex;        
+main {
+    margin: 0em 4em;
+}
+
+main div div{
+    margin-bottom: 2em;
+}
+
+main h1 {
+    margin: 2em 0em;
+    text-align: center;
+    font-weight: bold;
+}
+
+main h2 {
+    margin-bottom: 1.5em;
+    text-align: center;
+}
+
+main h3 {
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
+
+.divSeccionPerfil div {
+    padding: 3em;    
+}
+
+.divSeccionHabs div {
+    padding: 2em 3em 1em;    
+}
+
+.centrarNavBar {
+    display: flex;
     margin: auto;
     gap: 2em;
 }
 
-main h1{
-    margin: 2em 0em 4em;
-    text-align: center;
-    font-weight: bold;
+.sFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.divFoto {
+    width: auto;
+    height: auto;
+}
+
+.padreTablaHabs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);    
+    gap: 8px;
+}
+
+.padreTablaForma {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);    
+    gap: 8px;
+}
+
+.padreTablaHerramientas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);    
+    gap: 8px;
+}
+
+.encabezadoTabla{
+    width: auto;
+    height: 4em;
+    grid-row: span 2 / span 2;
+    margin-bottom: 3em;
+}
+
+.encabezadoTabla h2, .encabezadoTabla h3{
+    padding: 1.5em;    
 }

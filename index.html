@@ -19,25 +19,25 @@
         <div>
           <ul class="navbar-nav me-auto gap-2">
             <li class="nav-item">
-              <a class="nav-link" href="#">Sobre mí</a>
+              <a class="nav-link" href="#sectSobreMi">Sobre mí</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#">Formación</a>
+              <a class="nav-link" href="#sectFormacion">Formación</a>
             </li>
           </ul>
         </div>
 
-        <h1 class="navbar-brand" href="#">Ángel Villalobos Rodríguez</h1>
+        <h1 class="navbar-brand">Ángel Villalobos Rodríguez</h1>
 
         <div>
           <ul class="navbar-nav me-auto gap-2">
             <li class="nav-item">
-              <a class="nav-link" href="#">Experiencia</a>
+              <a class="nav-link" href="#sectExperiencia">Experiencia</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#">Proyectos</a>
+              <a class="nav-link" href="#sectProyectos">Proyectos</a>
             </li>
           </ul>
         </div>
@@ -47,31 +47,164 @@
   </header>
 
   <main>
-    <div>
+    <div id="sectSobreMi">
       <h1>Sobre mí</h1>
 
       <h2>Perfil</h2>
-      <h2>Habilidades</h2>
-      <h2>Idiomas</h2>
+      <div class="sFlex divSeccionPerfil">
+        <div>
+          <p>
+            Joven con bachiller en educación secundaria y actual estudiante en
+            Ingeniería del Software en la Universidad Técnica Nacional. Contando
+            con habilidades de programación, manejo de base de datos, análisis
+            lógico y resolución de problemas. Además, capacidades como trabajo
+            en equipo, adaptabilidad, comunicación efectiva y responsabilidad.
+            Motivado para aprender, adquirir experiencia, aportar valor a los
+            proyectos y continuar en la formación profesional.
+          </p>
+        </div>
+
+        <div class="divFoto">
+          <img src="./util/img/html-5_5968267.png" alt="Foto de perfil de Ángel Villalobos Rodríguez" />
+        </div>
+      </div>
+
+      <div class=" divSeccionHabs padreTablaHabs">
+        <div class="encabezadoTabla">
+          <h2>Habilidades blandas</h2>          
+        </div>
+
+        <div class="encabezadoTabla">
+          <h2>Idiomas</h2>          
+        </div>
+
+        <div>
+          <ul>
+            <li>Trabajo en equipo</li>
+            <li>Adaptación al cambio</li>
+            <li>Responsabilidad</li>
+            <li>Comunicación efectiva</li>
+            <li>Iniciativa</li>
+            <li>Análisis lógico</li>
+          </ul>
+        </div>
+        
+        <div>
+          <ul>
+            <li>Español - Nativo</li>
+            <li>Inglés - Nivel Intermedio</li>
+          </ul>
+        </div>
+      </div>
+
       <h2>Contacto</h2>
-
+      <div class="sFlex" style="background-color: rgb(207, 183, 231);">
+        <p>Teléfono: (506) 8495-8610</p>
+        <p>Correo electrónico: angelgvillalobos2704@gmail.com</p>
+        <p>Perfil de GitHub</p>
+        <button>Descargar CV</button>
+      </div>
     </div>
 
-    <div>
+    <div id="sectFormacion">
       <h1>Formación</h1>
+
+      <div class="padreTablaForma" style="background-color: chartreuse;">
+        <div>
+          <h2 class="mb-3">Bachillerato de colegio</h2>
+          <h3>(2018 - 2022)</h3>          
+        </div>
+
+        <div>
+          <h2 class="mb-3">Educación Universitaria</h2>
+          <h3>(2023 - Presente)</h3>          
+        </div>
+
+        <div>
+          <p>Graduado en bachillerato de colegio en el Colegio el Carmen de
+            Alajuela.</p>
+        </div>
+
+        <div>
+          <p>
+            Estudiante actual en Ingeniería del Software en la Universidad
+            Técnica Nacional, Alajuela. Poseyendo habilidades, conocimientos y
+            manejo en el control de diversas tecnologías y lenguajes de
+            programación, tales como: C#, .NET Framework, HTML, CSS,
+            JavaScript, Angular, SQL Server, MySQL, entre otros.
+          </p>
+        </div>
+      </div>
     </div>
 
-    <div>
+    <div id="sectExperiencia">
       <h1>Experiencia</h1>
-      
+
+      <div class="sFlex" style="background-color: coral;">
+        <div>
+          <h2>Proyectos y actividades universitarias</h2>
+          <h3>(Enero 2023 - Presente)</h3>
+          <p>
+            Creación de diversos proyectos universitarios programables, utilizando
+            diversas tecnologías y lenguajes de programación, por ejemplo: Páginas de tiendas ecommerce, página de
+            reservación de viajes en crucero, entre otros.
+            Además, de participar en actividades universitarias como torneos de programación.
+          </p>
+        </div>
+
+      </div>
+
       <h2>Herramientas</h2>
-      <h3>Lenguajes de programación</h3>
-      <h3>Frameworks y librerías</h3>
+
+      <div class="padreTablaHerramientas" style="background-color: rgb(200, 216, 247);">
+        <div class="encabezadoTabla">
+          <h3>Lenguajes de programación</h3>
+        </div>
+
+        <div class="encabezadoTabla">
+          <h3>Motores de base de datos</h3>
+        </div>
+
+        <div class="encabezadoTabla">
+          <h3>Frameworks y librerías</h3>
+        </div>
+
+        <div>
+          <ul>            
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript / TypeScript</li>
+            <li>C#</li>
+            <li>Php</li>
+          </ul>
+        </div>
+
+        <div>
+          <ul>
+            <li>MySQL</li>
+            <li>Microsoft SQL Server</li>
+            <li>HeidiSQL</li>
+          </ul>
+        </div>
+
+        <div>
+          <ul>
+            <li>Angular</li>
+            <li>Prisma</li>
+            <li>.NET Framework</li>
+            <li>Bootstrap</li>
+            <li>React</li>
+            <li>Material UI</li>
+          </ul>
+        </div>
+      </div>
+
+
     </div>
 
-    <div>
+    <div id="sectProyectos">
       <h1>Proyectos</h1>
-    </div>    
+    </div>
   </main>
 
   <footer>
