@@ -1,0 +1,53 @@
+main {
+    margin: 0em 4em;
+}
+
+p{
+    text-align: justify;
+}
+
+.sFlex {
+    display: flex;
+    gap: 2em;
+}
+
+.sFlex1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3em;
+}
+
+.sGrid2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);    
+    gap: 5px;
+}
+
+.sGrid3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+}
+
+.btnArriba{            
+    position: fixed;
+    bottom: 2em;    
+    right: 3em;
+    padding: 0.5em 12px;
+    border-radius: 30%;
+}
+
+.centrarDisplayFlex{
+    justify-content: center;
+    align-items: center;
+}
+
+.centrarDisplayGrid{
+    place-items: center;
+}
+
+.centrarDisplayGrid div{
+    place-self: center;
+}
+
+

@@ -1,9 +1,5 @@
-main {
-    margin: 0em 4em;
-}
-
 main div div{
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
 }
 
 main h1 {
@@ -22,29 +18,14 @@ main h3 {
     text-align: center;
 }
 
-p{
-    text-align: justify;
-}
-
-.divSeccionPerfil div {
-    padding: 3em;    
-}
-
-.divSeccionHabs div {
-    padding: 2em 3em 1em;    
-}
-
 .centrarNavBar {
     display: flex;
     margin: auto;
     gap: 2em;
 }
 
-.sFlex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2em;
+.divSeccionPerfil div {
+    padding: 3em;    
 }
 
 .divFoto {
@@ -52,34 +33,16 @@ p{
     height: auto;
 }
 
-.padreTablaHabs {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);    
-    gap: 8px;
+.divSeccionHabs div {
+    padding: 2em 3em 1em;
 }
 
-.padreTablaForma {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);    
-    gap: 8px;
+.divSeccionForma div{    
+    padding: 1em 3em;
+    margin: 0em auto;    
 }
 
-.padreTablaHerramientas {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);    
-    gap: 8px;
-}
-
-.encabezadoTabla{
-    width: auto;
-    height: 4em;
-    grid-row: span 2 / span 2;
-    margin-bottom: 3em;
-}
-
-.encabezadoTabla h2, .encabezadoTabla h3{
-    padding: 1.5em;    
+.sPLenguajes p{
+    text-align: center;
+    margin-top: 15px;
 }
