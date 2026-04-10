@@ -7,8 +7,9 @@
   <title>Portafolio Web - Ángel Villalobos Rodríguez</title>
   <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/style-inicio.css">
-
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 </head>
 
 <body>
@@ -23,7 +24,7 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#sectFormacion">Formación</a>
+              <a class="nav-link" href="#sectEducacion">Educación</a>
             </li>
           </ul>
         </div>
@@ -47,163 +48,216 @@
   </header>
 
   <main>
-    <div id="sectSobreMi">
-      <h1>Sobre mí</h1>
+    <a href="#">
+      <button type="button" class="btn btn-primary btnArriba">
+        <span class="material-symbols-outlined">
+          keyboard_double_arrow_up
+        </span>
+      </button>
+    </a>
 
-      <h2>Perfil</h2>
-      <div class="sFlex divSeccionPerfil">
-        <div>
-          <p>
-            Joven con bachiller en educación secundaria y actual estudiante en
-            Ingeniería del Software en la Universidad Técnica Nacional. Contando
-            con habilidades de programación, manejo de base de datos, análisis
-            lógico y resolución de problemas. Además, capacidades como trabajo
-            en equipo, adaptabilidad, comunicación efectiva y responsabilidad.
-            Motivado para aprender, adquirir experiencia, aportar valor a los
-            proyectos y continuar en la formación profesional.
-          </p>
+    <div>
+      <section id="sectSobreMi">
+        <h1>Sobre mí</h1>
+
+        <h2>Perfil</h2>
+        <div class="sFlex centrarDisplayFlex divSeccionPerfil">
+          <div>
+            <p>
+              Joven con bachiller en educación secundaria y actual estudiante en
+              Ingeniería del Software en la Universidad Técnica Nacional. Contando
+              con habilidades de programación, manejo de base de datos, análisis
+              lógico y resolución de problemas. Además, capacidades como trabajo
+              en equipo, adaptabilidad, comunicación efectiva y responsabilidad.
+              Motivado para aprender, adquirir experiencia, aportar valor a los
+              proyectos y continuar en mí formación profesional.
+            </p>
+          </div>
+
+          <div class="divFoto">
+            <img src="./util/img/IMG-20221030-WA0130 (2).jpg" alt="Foto de perfil de Ángel Villalobos Rodríguez" />
+          </div>
         </div>
 
-        <div class="divFoto">
-          <img src="./util/img/html-5_5968267.png" alt="Foto de perfil de Ángel Villalobos Rodríguez" />
-        </div>
-      </div>
+        <div class="divSeccionHabs sGrid2">
+          <div>
+            <h2>Habilidades blandas</h2>
+            <ul>
+              <li>Trabajo en equipo</li>
+              <li>Adaptación al cambio</li>
+              <li>Responsabilidad</li>
+              <li>Comunicación efectiva</li>
+              <li>Iniciativa</li>
+              <li>Análisis lógico</li>
+            </ul>
+          </div>
 
-      <div class=" divSeccionHabs padreTablaHabs">
-        <div class="encabezadoTabla">
-          <h2>Habilidades blandas</h2>          
+          <div>
+            <h2>Idiomas</h2>
+            <ul>
+              <li>Español - Nativo</li>
+              <li>Inglés - Nivel Intermedio</li>
+            </ul>
+          </div>
         </div>
 
-        <div class="encabezadoTabla">
-          <h2>Idiomas</h2>          
+        <h2>Contacto</h2>
+        <div class="sGrid2">
+          <p class="text-center">Teléfono: (506) 8495-8610</p>
+          <p class="text-center">Correo electrónico: angelgvillalobos2704@gmail.com</p>
+          <p class="text-center">Perfil de GitHub</p>
+          <a href="" download class="btn btn-outline-primary sFlex centrarDisplayFlex gap-2">
+            <span class="material-symbols-outlined"> download</span> Descargar CV
+          </a>
         </div>
-
-        <div>
-          <ul>
-            <li>Trabajo en equipo</li>
-            <li>Adaptación al cambio</li>
-            <li>Responsabilidad</li>
-            <li>Comunicación efectiva</li>
-            <li>Iniciativa</li>
-            <li>Análisis lógico</li>
-          </ul>
-        </div>
-        
-        <div>
-          <ul>
-            <li>Español - Nativo</li>
-            <li>Inglés - Nivel Intermedio</li>
-          </ul>
-        </div>
-      </div>
-
-      <h2>Contacto</h2>
-      <div class="sFlex" style="background-color: rgb(207, 183, 231);">
-        <p>Teléfono: (506) 8495-8610</p>
-        <p>Correo electrónico: angelgvillalobos2704@gmail.com</p>
-        <p>Perfil de GitHub</p>
-        <button>Descargar CV</button>
-      </div>
+      </section>
     </div>
 
-    <div id="sectFormacion">
-      <h1>Formación</h1>
+    <div>
+      <section id="sectEducacion">
+        <h1>Educación</h1>
 
-      <div class="padreTablaForma" style="background-color: chartreuse;">
-        <div>
-          <h2 class="mb-3">Bachillerato de colegio</h2>
-          <h3>(2018 - 2022)</h3>          
-        </div>
+        <div class="sGrid2 divSeccionForma">
+          <div>
+            <h2 class="mb-3">Bachillerato de colegio</h2>
+            <h3>(2018 - 2022)</h3>
+            <p>Graduado en bachillerato de colegio en el Colegio el Carmen de
+              Alajuela.</p>
+          </div>
 
-        <div>
-          <h2 class="mb-3">Educación Universitaria</h2>
-          <h3>(2023 - Presente)</h3>          
+          <div>
+            <h2 class="mb-3">Educación Universitaria</h2>
+            <h3>(2023 - Presente)</h3>
+            <p>
+              Graduado de diplomado universitario en tecnologías informáticas y actual estudiante de bachillerato en
+              Ingeniería del Software en la Universidad Técnica Nacional.
+            </p>
+          </div>
         </div>
-
-        <div>
-          <p>Graduado en bachillerato de colegio en el Colegio el Carmen de
-            Alajuela.</p>
-        </div>
-
-        <div>
-          <p>
-            Estudiante actual en Ingeniería del Software en la Universidad
-            Técnica Nacional, Alajuela. Poseyendo habilidades, conocimientos y
-            manejo en el control de diversas tecnologías y lenguajes de
-            programación, tales como: C#, .NET Framework, HTML, CSS,
-            JavaScript, Angular, SQL Server, MySQL, entre otros.
-          </p>
-        </div>
-      </div>
+      </section>
     </div>
 
-    <div id="sectExperiencia">
-      <h1>Experiencia</h1>
+    <div>
+      <section id="sectExperiencia">
+        <h1>Experiencia</h1>
 
-      <div class="sFlex" style="background-color: coral;">
-        <div>
-          <h2>Proyectos y actividades universitarias</h2>
-          <h3>(Enero 2023 - Presente)</h3>
-          <p>
-            Creación de diversos proyectos universitarios programables, utilizando
-            diversas tecnologías y lenguajes de programación, por ejemplo: Páginas de tiendas ecommerce, página de
-            reservación de viajes en crucero, entre otros.
-            Además, de participar en actividades universitarias como torneos de programación.
-          </p>
+        <div class="px-5 pt-2 pb-5">
+          <div>
+            <h2 class="mb-3">Proyectos y actividades universitarias</h2>
+            <h3>(Enero 2023 - Presente)</h3>
+            <p>
+              Desarrollé diversos proyectos informáticos a lo largo de la carrera universitaria, por ejemplo: páginas
+              ecommerce, página de pedidos de comida rápida para restaurantes, página de reservación de viajes en
+              cruceros, entre otros más, implementando diferentes herramientas tecnológicas en los proyectos
+              informáticos, lo que me permitió contar con habilidades, conocimientos y manejo en el control de múltiples
+              tecnologías y lenguajes de programación, tales como: C#, Php, HTML, CSS, JavaScript, Angular, SQL Server,
+              MySQL, .NET Framework, entre otros, además de participar en torneos de lógica programación organizados por
+              los docentes de la carrera de Ingeniería del Software de la universidad.
+            </p>
+          </div>
         </div>
 
-      </div>
+        <h2>Herramientas</h2>
 
-      <h2>Herramientas</h2>
+        <div class="sGrid3 px-4 py-2 gap-5">
+          <div>
+            <h3>Lenguajes de programación</h3>
+            <div class="sFlex1 centrarDisplayFlex sPLenguajes">
+              <div>
+                <img src="./util/img/html-5_5968267.png" alt="Logo de HTML" width="100px" />
+                <p>HTML</p>
+              </div>
 
-      <div class="padreTablaHerramientas" style="background-color: rgb(200, 216, 247);">
-        <div class="encabezadoTabla">
-          <h3>Lenguajes de programación</h3>
+              <div>
+                <img src="./util/img/css-3_5968242.png" alt="Logo de CSS" width="100px" />
+                <p>CSS</p>
+              </div>
+
+              <div>
+                <img src="./util/img/js_5968292.png" alt="Logo de JavaScript" width="100px" />
+                <p>JavaScript</p>
+              </div>
+
+              <div>
+                <img src="./util/img/typescript.png" alt="Logo de TypeScript" width="100px" />
+                <p>TypeScript</p>
+              </div>
+
+              <div>
+                <img src="./util/img/c-sharp.png" alt="Logo de CSharp" width="100px" />
+                <p>C#/Csharp</p>
+              </div>
+
+              <div>
+                <img src="./util/img/php.png" alt="Logo de Php" width="100px" />
+                <p>Php</p>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <h3>Motores de base de datos</h3>
+            <div class="sGrid3 centrarDisplayGrid sPLenguajes">
+              <div>
+                <img src="./util/img/mysql.png" alt="Logo de MySQL" width="100px" />
+                <p>MySQL</p>
+              </div>
+
+              <div>
+                <img src="./util/img/sql-server.png" alt="Logo de Microsoft SQL Server" width="100px" />
+                <p>Microsoft SQL Server</p>
+              </div>
+
+              <div>
+                <img src="./util/img/HeidiSQL_logo_image.png" alt="Logo de HeidiSQL" width="100px" />
+                <p>HeidiSQL</p>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <h3>Frameworks y librerías</h3>
+            <div class="sGrid2 centrarDisplayGrid sPLenguajes">
+              <div>
+                <img src="./util/img/file_type_angular_icon_130754.png" alt="Logo de Angular" width="100px" />
+                <p>Angular</p>
+              </div>
+
+              <div>
+                <img src="./util/img/file_type_light_prisma_icon_130444.png" alt="Logo de Prisma" width="100px" />
+                <p>Prisma</p>
+              </div>
+
+              <div>
+                <img src="./util/img/dot_net_original_wordmark_logo_icon_146547.png" alt="Logo de .NET Framework"
+                  width="100px" />
+                <p>.NET Framework</p>
+              </div>
+
+              <div>
+                <img src="./util/img/bootstrap_plain_logo_icon_146619.png" alt="Logo de Bootstrap" width="100px" />
+                <p>Bootstrap</p>
+              </div>
+
+              <div>
+                <img src="./util/img/react_original_logo_icon_146374.png" alt="Logo de React" width="100px" />
+                <p>React</p>
+              </div>
+
+              <div>
+                <img src="./util/img/material_ui_icon_137419.png" alt="Logo de Material UI" width="100px" />
+                <p>Material UI</p>
+              </div>
+            </div>
+          </div>
         </div>
-
-        <div class="encabezadoTabla">
-          <h3>Motores de base de datos</h3>
-        </div>
-
-        <div class="encabezadoTabla">
-          <h3>Frameworks y librerías</h3>
-        </div>
-
-        <div>
-          <ul>            
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript / TypeScript</li>
-            <li>C#</li>
-            <li>Php</li>
-          </ul>
-        </div>
-
-        <div>
-          <ul>
-            <li>MySQL</li>
-            <li>Microsoft SQL Server</li>
-            <li>HeidiSQL</li>
-          </ul>
-        </div>
-
-        <div>
-          <ul>
-            <li>Angular</li>
-            <li>Prisma</li>
-            <li>.NET Framework</li>
-            <li>Bootstrap</li>
-            <li>React</li>
-            <li>Material UI</li>
-          </ul>
-        </div>
-      </div>
-
-
+      </section>
     </div>
 
-    <div id="sectProyectos">
-      <h1>Proyectos</h1>
+    <div>
+      <section id="sectProyectos">
+        <h1>Proyectos</h1>
+      </section>
     </div>
   </main>
 
